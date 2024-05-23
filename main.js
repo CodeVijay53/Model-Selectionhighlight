@@ -37,7 +37,7 @@ function init() {
 
   // Load GLB model
   const loader = new GLTFLoader();
-  loader.load("./public/BatteryPack_50.glb", (gltf) => {
+  loader.load("./BatteryPack_50.glb", (gltf) => {
     const model = gltf.scene;
     scene.add(model);
 
